@@ -516,6 +516,92 @@ footer img {
 
 }
 
+/* Animaciones */
+
+.fecha9{
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count:initial;
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fecha11{
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count:initial;
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fecha13{
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count:initial;
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fecha15{
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count:initial;
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fecha17{
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count:initial;
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
 
 
 /* Servicios */
@@ -658,6 +744,31 @@ footer img {
             justify-items: center;
         }
     }
+}
+/* Animaciones */
+
+.benefVit{
+    height: 100%;
+    background: rgb(195,244,253);
+background: linear-gradient(90deg, rgba(195,244,253,1) 48%, rgba(0,212,255,1) 69%);
+}
+
+.benefAbon{
+    height: 100%;
+    background: rgb(195,244,253);
+background: linear-gradient(90deg, rgba(195,244,253,1) 48%, rgba(0,212,255,1) 69%);
+}
+
+.benefSoc{
+    height: 100%;
+    background: rgb(195,244,253);
+background: linear-gradient(90deg, rgba(195,244,253,1) 48%, rgba(0,212,255,1) 69%);
+}
+
+.benefNoSoc{
+    height: 100%;
+    background: rgb(195,244,253);
+background: linear-gradient(90deg, rgba(195,244,253,1) 48%, rgba(0,212,255,1) 69%);
 }
 
 /*Galeria */
