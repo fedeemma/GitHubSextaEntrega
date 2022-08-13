@@ -44,6 +44,23 @@ a {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+a {
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
      
 
 main {
