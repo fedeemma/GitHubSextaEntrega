@@ -45,24 +45,6 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a {
-    animation-duration: 3s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-}
-
-
-@keyframes aparecer {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-     
-
 main {
     width: 100%;
     height: 100%;
@@ -79,6 +61,23 @@ section {
     align-items: center;
 }
 
+.club{
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count:initial;
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .titulares {
     grid-area: imgTitulares;
 }
@@ -90,6 +89,23 @@ section {
 .afiliacion {
     color: black;
     grid-area: parrafoPriGrande;
+}
+
+.afiliacion{
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count:initial;
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .laAcademia {
@@ -267,6 +283,23 @@ footer img {
 
 .localia {
     color: rgb(18, 39, 223);
+}
+
+.localia{
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count:initial;
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .fecha9 {
@@ -500,6 +533,23 @@ footer img {
     text-align: center
 }
 
+.acceso{
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count:initial;
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .ubicaciones{
     grid-area: canchaUbicac;
 }
@@ -626,6 +676,23 @@ footer img {
     color: rgb(18, 39, 223);
 }
 
+.momentos{
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count:initial;
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 .videoUno {
     grid-area: unoVideo;
 }
@@ -746,6 +813,23 @@ footer img {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 
+}
+
+.infoRacing{
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count:initial;
+}
+
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 .tareaUno {
